@@ -15,6 +15,8 @@ class TweetCategorySeeder extends Seeder
      */
     public function run()
     {
-        TweetCategory::factory(10)->create();
+        TweetCategory::create(['name' => 'Category 1']);
+        TweetCategory::create(['name' => 'Category 2']);
+        TweetCategory::create(['name' => 'Category 3']);
     }
 }
