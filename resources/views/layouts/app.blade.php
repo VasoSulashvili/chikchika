@@ -30,10 +30,6 @@
             <x-layouts.__right />
         </div>
     </div>
-   <div x-data="{ pageErrorShow : '{{ isset($pageError) ? $pageError : false }}' }">
-    <div x-show="pageErrorShow">ssssssssssssssss</div>
-
-   </div>
    @livewireScripts
 </body>
 </html>
